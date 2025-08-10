@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: white;
+  font-family: "Bruno Ace SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0.5rem 0;
+  // letter-spacing: 0.5px;
+}
+
+.section-header {
+  background: -webkit-linear-gradient(#26ff00, #004300);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-wrap: nowrap;
+}
+
+// span {
+//   font-family: "Nata Sans", sans-serif !important;
+//   font-optical-sizing: auto;
+//   font-style: normal;
+// }

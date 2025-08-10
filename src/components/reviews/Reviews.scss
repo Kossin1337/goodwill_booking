@@ -1,0 +1,72 @@
+.reviews-section {
+  min-height: 100vh;
+  max-height: 100vh;
+  z-index: 1;
+  padding: 10vh 10%;
+
+  .section-header {
+    color: #fefefe;
+    font-size: 3.25rem;
+  }
+
+  .reviews-wrapper {
+    margin-top: 2rem;
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+
+    .opinion-box {
+      width: 100%;
+      // h100%
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 1rem 1.5rem;
+
+      &:nth-child(2) {
+        transform: translateY(1rem);
+      }
+
+      // padding: 0.5rem 0;
+      background: rgba(5, 5, 5, 0.85);
+      border: 1px solid rgba(225, 225, 225, 0.15);
+      border-radius: 25px;
+
+      .opinion-title {
+        text-align: center;
+        background: -webkit-linear-gradient(#26ff00, #004300);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+
+      .opinion-description {
+        margin-top: 0.5rem;
+        color: white;
+        // font-family: "Bruno Ace SC", sans-serif;
+        // font-family: "Nata Sans", sans-serif !important;
+        font-family: "Montserrat";
+        font-weight: 500;
+        line-height: 1.5;
+        font-style: normal;
+      }
+
+      .opinion-level {
+        width: 100%;
+        margin-top: 1rem;
+        text-align: right;
+        color: #fefefe;
+        font-family: "Bruno Ace SC", sans-serif;
+        font-size: 0.875rem;
+        // font-family: "Nata Sans", sans-serif !important;
+      }
+
+      .opinion-footer {
+        padding-top: 1rem;
+        margin-top: auto;
+        color: #fefefe;
+        font-family: "Bruno Ace SC", sans-serif;
+        font-size: 0.75rem;
+      }
+    }
+  }
+}

@@ -1,0 +1,115 @@
+.main-section {
+  position: relative;
+  height: calc(100vh - 70px);
+  padding: 0 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1;
+
+  /* STATS */
+  .left-section {
+    .main-heading {
+      font-size: 3.5rem;
+      color: #fefefe;
+
+      background: -webkit-linear-gradient(#26ff00, #004300);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .sub-heading {
+      font-size: 2rem;
+      color: #fefefe;
+
+      // background: -webkit-linear-gradient(#004300, #26ff00);
+      // -webkit-background-clip: text;
+      // -webkit-text-fill-color: transparent;
+    }
+
+    .sub-heading-one {
+      background: -webkit-linear-gradient(#004300, #26ff00);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .phone-box {
+      margin: 1.5rem 0 1rem 0;
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+
+      &:hover {
+        cursor: pointer;
+        color: red;
+
+        .subsub-heading {
+          user-select: none;
+          text-decoration: underline;
+        }
+      }
+
+      svg {
+        width: 32px;
+        height: 32px;
+      }
+    }
+  }
+
+  .right-side {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    min-width: 250px;
+    // padding: 0.5rem 1.25rem;
+    padding-bottom: 0.75rem;
+    border-radius: 25px;
+    background-color: #050505;
+    border: 1px solid #181818;
+
+    -webkit-box-shadow: 4px 4px 16px 0px rgba(37, 37, 37, 1);
+    -moz-box-shadow: 4px 4px 16px 0px rgba(37, 37, 37, 1);
+    box-shadow: 4px 4px 16px 0px rgba(37, 37, 37, 1);
+
+    .attribute-title {
+      // margin-top: 1rem;
+      font-size: 1.75rem;
+      background: -webkit-linear-gradient(#26ff00, #004300);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    img {
+      width: 100%;
+      max-width: 360px;
+      // heigh: 360px;
+      // opacity: 0.1;
+      // margin: 0.5rem 0;
+      // transform: scale(0.7);
+      border-radius: 15px;
+    }
+
+    .attributes {
+      margin-top: 0.75rem;
+
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      &::before {
+        content: "";
+        border: 1px solid rgba(85, 255, 0, 0.25);
+        width: 25%;
+      }
+      .attribute {
+        text-align: center;
+        font-size: 1.375rem;
+        background: -webkit-linear-gradient(#26ff00, #004300);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        opacity: 0.9;
+      }
+    }
+  }
+}

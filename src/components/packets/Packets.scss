@@ -1,0 +1,114 @@
+.packets-section {
+  display: flex;
+  flex-direction: column;
+  // justify-content: center;
+  // align-items: center;
+  min-height: 100vh;
+  max-height: 100vh;
+  z-index: 1;
+  padding: 10vh 10%;
+
+  .section-header {
+    color: #fefefe;
+    font-size: 3.25rem;
+  }
+
+  .packets-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+    gap: 1rem;
+
+    .packet-box {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      padding: 1rem 1.5rem;
+      background: rgba(5, 5, 5, 0.75);
+      border: 1px solid rgba(225, 225, 225, 0.15);
+      border-radius: 25px;
+
+      &:hover {
+        -webkit-box-shadow: 4px 4px 16px 0px rgba(37, 37, 37, 1);
+        -moz-box-shadow: 4px 4px 16px 0px rgba(37, 37, 37, 1);
+        box-shadow: 4px 4px 16px 0px rgba(37, 37, 37, 1);
+      }
+
+      .packet-header {
+        font-size: 1.5rem;
+        text-align: center;
+        margin: 0;
+        margin-bottom: auto;
+
+        // text-wrap: nowrap;
+        // background: -webkit-linear-gradient(#26ff00, #004300);
+        // -webkit-background-clip: text;
+        // -webkit-text-fill-color: transparent;
+      }
+
+      .packet-time-amount {
+        margin-top: 0.5rem;
+        font-size: 1.125rem;
+        color: #cecece;
+      }
+
+      .packet-discount {
+        background: -webkit-linear-gradient(#26ff00, #004300);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+
+      .packet-description-wrapper {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+        margin-top: 1rem;
+
+        .packet-info {
+          position: relative;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          // gap: 1rem;
+
+          svg {
+            position: absolute;
+            left: -0.75rem;
+            width: 20px;
+            // margin-right: auto;
+          }
+          &:nth-child(5),
+          &:nth-child(6) {
+            svg {
+              opacity: 0.25;
+            }
+          }
+        }
+        &:hover {
+          .packet-info {
+            svg {
+              opacity: 1 !important;
+            }
+          }
+        }
+        .packet-description {
+          // text-align: center !important;
+          color: white;
+          // font-family: "Bruno Ace SC", sans-serif;
+          font-family: "Montserrat", sans-serif !important;
+          font-weight: 500;
+          font-style: normal;
+          line-height: 1.5;
+          text-transform: uppercase;
+          letter-spacing: 0.25px;
+
+          text-align: center;
+        }
+      }
+    }
+  }
+}

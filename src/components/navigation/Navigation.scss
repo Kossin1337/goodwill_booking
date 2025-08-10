@@ -1,0 +1,72 @@
+.navigation {
+  // position: fixed;
+  position: sticky;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75rem 10%;
+  z-index: 9999;
+  background-color: rgba(5, 5, 5, 0.75);
+  border-bottom: 1px solid rgba(200, 200, 200, 0.2);
+
+  a {
+    text-decoration: none;
+    .logo {
+      color: white;
+      font-family: "Bruno Ace SC", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+
+      &:hover {
+        background: -webkit-linear-gradient(#26ff00, #004300);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+    }
+  }
+
+  .navigation-menu {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+
+    a {
+      text-decoration: none;
+    }
+
+    .menu-item {
+      display: flex;
+      align-items: center;
+      user-select: none;
+      color: #eee;
+      font-family: "Bruno Ace SC", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+
+      svg {
+        width: 18px;
+        // height: 24px;
+        // fill: blue;
+      }
+
+      &:hover {
+        cursor: pointer;
+        color: #fefefe;
+        transform: scale(1.1);
+      }
+    }
+
+    .cta-button {
+      padding: 0.5rem 1rem;
+
+      font-family: "Bruno Ace SC", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      border: none;
+      border-radius: 20px;
+      outline: none;
+    }
+  }
+}

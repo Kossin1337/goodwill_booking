@@ -1,0 +1,43 @@
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  // width: 100vw;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  bottom: 0;
+  // background-color: red;
+  padding: 0.25rem 10%;
+  background-color: rgba(0, 0, 0, 0.85);
+
+  span {
+    color: #fefefe;
+    font-family: "Bruno Ace SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 0.875rem;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .dev-tag {
+    text-decoration: underline;
+    text-underline-offset: 1px;
+    text-decoration-thickness: 1px;
+    text-decoration-style: wavy;
+    text-decoration-color: rgba(8, 146, 8, 0.9);
+
+    color: rgb(8, 146, 8);
+
+    &:hover {
+      background: -webkit-linear-gradient(#26ff00, #004300);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      text-decoration-color: transparent;
+    }
+  }
+}

@@ -1,0 +1,48 @@
+.about-section {
+  min-height: 100vh;
+  max-height: 100vh;
+  z-index: 1;
+  padding: 10vh 10%;
+
+  .section-header {
+    color: #fefefe;
+    font-size: 3.25rem;
+  }
+
+  span {
+    color: #fefefe;
+    font-family: "Bruno Ace SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .about-info-box {
+    display: flex;
+    flex-direction: column;
+    // padding: 1rem;
+
+    .sub-heading {
+      font-size: 2rem;
+    }
+  }
+
+  .goals-box {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+
+    .sub-heading {
+      font-size: 2rem;
+    }
+  }
+
+  .material-range-box {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+
+    .sub-heading {
+      font-size: 2rem;
+    }
+  }
+}

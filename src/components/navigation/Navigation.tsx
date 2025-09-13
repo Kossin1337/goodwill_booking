@@ -41,7 +41,7 @@ const Navigation = () => {
   return (
     <nav className="navigation">
       <a href="#home">
-        <h1 className="logo">GoodWill Math</h1>
+        <h1 className="logo">Good Math</h1>
       </a>
       <ul className="navigation-menu">
         {sections.map(({ id, label }) => (

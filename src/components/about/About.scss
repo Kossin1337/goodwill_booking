@@ -11,9 +11,11 @@
 
   span {
     color: #fefefe;
-    font-family: "Bruno Ace SC", sans-serif;
-    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+    line-height: 2.0;
+    font-weight: 500;
     font-style: normal;
+    text-transform: uppercase;
   }
 
   .about-info-box {
@@ -23,6 +25,16 @@
 
     .sub-heading {
       font-size: 2rem;
+      
+      background: -webkit-linear-gradient(#004300, #26ff00);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    
+    h3 {
+      background: -webkit-linear-gradient(#004300, #26ff00);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
     }
   }
 
@@ -33,6 +45,10 @@
 
     .sub-heading {
       font-size: 2rem;
+      
+      background: -webkit-linear-gradient(#004300, #26ff00);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
     }
   }
 
@@ -43,6 +59,10 @@
 
     .sub-heading {
       font-size: 2rem;
+      
+      background: -webkit-linear-gradient(#004300, #26ff00);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
     }
   }
 }

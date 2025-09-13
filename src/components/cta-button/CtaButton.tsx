@@ -4,13 +4,15 @@ import CalendarDaysIcon from "../../icons/CalendarDaysIcon";
 
 const CtaButton = () => {
   return (
-    <button className="button">
-      <CalendarDaysIcon />
-      <span className="text">Zaplanuj Lekcje</span>
-      <div className="icon">
-        <CalendarIcon />
-      </div>
-    </button>
+      <a className="cta-button-link" target="_blank" href="https://calendar.app.google/ebnv7JrTjYXj8KHMA">
+      <button className="button">
+        <CalendarDaysIcon />
+        <span className="text">Zaplanuj Lekcje</span>
+        <div className="icon">
+          <CalendarIcon />
+        </div>
+      </button>
+    </a>
   );
 };
 

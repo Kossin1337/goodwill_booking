@@ -41,6 +41,11 @@
     transition: opacity 0.15s ease;
   }
 }
+
+.cta-button-link {
+ text-decoration: none;
+}
+
 .button::before {
   content: "";
   position: absolute;
